@@ -1,0 +1,26 @@
+[2021-07-22 09:17:23,356] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 09:17:23,389] [main] INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2021-07-22 09:17:23,389] [main] INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 09:17:23,510] [main] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2021-07-22 09:17:23,510] [main] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1600 ms
+[2021-07-22 09:17:24,115] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 09:17:24,126] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.206 seconds (JVM running for 3.786)
+[2021-07-22 09:17:34,615] [http-nio-8080-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 09:17:34,615] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2021-07-22 09:17:34,615] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2021-07-22 09:17:34,643] [http-nio-8080-exec-1] ERROR com.example.logging.controller.EjemploRest Mostrando tipo error nombre: hola_chuchi556
+[2021-07-22 09:17:41,842] [http-nio-8080-exec-2] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi557
+[2021-07-22 09:18:01,760] [main] INFO com.example.logging.LoggingApplication Starting LoggingApplication using Java 16.0.1 on EM2020002425 with PID 13080 (C:\a\Logging\target\classes started by jesus.javier in C:\a\Logging)
+[2021-07-22 09:18:01,767] [main] INFO com.example.logging.LoggingApplication No active profile set, falling back to default profiles: default
+[2021-07-22 09:18:03,440] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 09:18:03,462] [main] INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2021-07-22 09:18:03,462] [main] INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 09:18:03,574] [main] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2021-07-22 09:18:03,574] [main] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1675 ms
+[2021-07-22 09:18:04,066] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 09:18:04,066] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.29 seconds (JVM running for 3.837)
+[2021-07-22 09:18:08,463] [http-nio-8080-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 09:18:08,463] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2021-07-22 09:18:08,463] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2021-07-22 09:18:08,494] [http-nio-8080-exec-1] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi557
+[2021-07-22 09:19:59,454] [http-nio-8080-exec-2] ERROR com.example.logging.controller.EjemploRest Mostrando tipo error nombre: hola_chuchi558

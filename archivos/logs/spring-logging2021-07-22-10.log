@@ -1,0 +1,41 @@
+[2021-07-22 09:10:57,980] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.22 seconds (JVM running for 3.924)
+[2021-07-22 09:11:14,225] [http-nio-8080-exec-1] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi556
+[2021-07-22 09:11:37,371] [main] INFO com.example.logging.LoggingApplication Starting LoggingApplication using Java 16.0.1 on EM2020002425 with PID 2476 (C:\a\Logging\target\classes started by jesus.javier in C:\a\Logging)
+[2021-07-22 09:11:37,378] [main] INFO com.example.logging.LoggingApplication No active profile set, falling back to default profiles: default
+[2021-07-22 09:11:39,713] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.191 seconds (JVM running for 3.757)
+[2021-07-22 09:11:46,320] [http-nio-8080-exec-1] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi556
+[2021-07-22 09:11:52,192] [http-nio-8080-exec-2] ERROR com.example.logging.controller.EjemploRest Mostrando tipo error nombre: hola_chuchi556
+[2021-07-22 09:17:08,098] [main] ERROR org.springframework.boot.SpringApplication Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:71 - no applicable action for [filter], current ElementPath  is [[configuration][appender][rollingPolicy][filter]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [level], current ElementPath  is [[configuration][appender][rollingPolicy][filter][level]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.logging.LoggingApplication.main(LoggingApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:71 - no applicable action for [filter], current ElementPath  is [[configuration][appender][rollingPolicy][filter]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [level], current ElementPath  is [[configuration][appender][rollingPolicy][filter][level]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 18 common frames omitted
+[2021-07-22 09:17:21,808] [main] INFO com.example.logging.LoggingApplication Starting LoggingApplication using Java 16.0.1 on EM2020002425 with PID 3588 (C:\a\Logging\target\classes started by jesus.javier in C:\a\Logging)
+[2021-07-22 09:17:21,819] [main] INFO com.example.logging.LoggingApplication No active profile set, falling back to default profiles: default

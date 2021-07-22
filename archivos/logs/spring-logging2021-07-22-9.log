@@ -1,0 +1,68 @@
+[2021-07-22 09:01:11,279] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 09:01:11,303] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.293 seconds (JVM running for 4.221)
+[2021-07-22 09:01:18,450] [http-nio-8080-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 09:01:18,450] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2021-07-22 09:01:18,470] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 4 ms
+[2021-07-22 09:01:18,494] [http-nio-8080-exec-1] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi444
+[2021-07-22 09:01:33,457] [http-nio-8080-exec-2] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi555
+[2021-07-22 09:02:27,237] [main] INFO com.example.logging.LoggingApplication Starting LoggingApplication using Java 16.0.1 on EM2020002425 with PID 7484 (C:\a\Logging\target\classes started by jesus.javier in C:\a\Logging)
+[2021-07-22 09:02:27,241] [main] INFO com.example.logging.LoggingApplication No active profile set, falling back to default profiles: default
+[2021-07-22 09:02:28,758] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 09:02:28,778] [main] INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2021-07-22 09:02:28,778] [main] INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 09:02:28,886] [main] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2021-07-22 09:02:28,886] [main] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1545 ms
+[2021-07-22 09:02:29,416] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 09:02:29,436] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.088 seconds (JVM running for 3.635)
+[2021-07-22 09:02:40,713] [http-nio-8080-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 09:02:40,713] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2021-07-22 09:02:40,713] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2021-07-22 09:02:40,741] [http-nio-8080-exec-1] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi556
+[2021-07-22 09:05:06,471] [main] INFO com.example.logging.LoggingApplication Starting LoggingApplication using Java 16.0.1 on EM2020002425 with PID 18544 (C:\a\Logging\target\classes started by jesus.javier in C:\a\Logging)
+[2021-07-22 09:05:06,471] [main] INFO com.example.logging.LoggingApplication No active profile set, falling back to default profiles: default
+[2021-07-22 09:05:08,059] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 09:05:08,081] [main] INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2021-07-22 09:05:08,081] [main] INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 09:05:08,182] [main] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2021-07-22 09:05:08,182] [main] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1613 ms
+[2021-07-22 09:05:08,683] [main] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 09:05:08,699] [main] INFO com.example.logging.LoggingApplication Started LoggingApplication in 3.243 seconds (JVM running for 3.885)
+[2021-07-22 09:05:17,162] [http-nio-8080-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 09:05:17,168] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2021-07-22 09:05:17,168] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2021-07-22 09:05:17,184] [http-nio-8080-exec-1] INFO com.example.logging.controller.EjemploRest Saludo tipo info nombre: hola_chuchi556
+[2021-07-22 09:05:27,709] [http-nio-8080-exec-2] ERROR com.example.logging.controller.EjemploRest Mostrando tipo error nombre: hola_chuchi556
+[2021-07-22 09:10:00,654] [main] ERROR org.springframework.boot.SpringApplication Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.joran.action.LoggerAction - No 'name' attribute in element logger, around line: 31, column: 28
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an AppenderAttachable at the top of execution stack. Near [appender-ref] line 32
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.logging.LoggingApplication.main(LoggingApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.joran.action.LoggerAction - No 'name' attribute in element logger, around line: 31, column: 28
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an AppenderAttachable at the top of execution stack. Near [appender-ref] line 32
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 18 common frames omitted
+[2021-07-22 09:10:55,719] [main] INFO com.example.logging.LoggingApplication Starting LoggingApplication using Java 16.0.1 on EM2020002425 with PID 10988 (C:\a\Logging\target\classes started by jesus.javier in C:\a\Logging)
+[2021-07-22 09:10:55,727] [main] INFO com.example.logging.LoggingApplication No active profile set, falling back to default profiles: default

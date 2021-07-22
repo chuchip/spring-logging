@@ -1,0 +1,30 @@
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Detected StandardServletMultipartResolver
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Detected AcceptHeaderLocaleResolver
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Detected FixedThemeResolver
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@8c02c
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Detected org.springframework.web.servlet.support.SessionFlashMapManager@30d9f289
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-07-22 08:54:47,021] [http-nio-8080-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2021-07-22 08:54:47,036] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet GET "/ERROR/hola", parameters={}
+[2021-07-22 08:54:47,036] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+[2021-07-22 08:54:47,036] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler Resource not found
+[2021-07-22 08:54:47,036] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Completed 404 NOT_FOUND
+[2021-07-22 08:54:47,036] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+[2021-07-22 08:54:47,036] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2021-07-22 08:54:47,068] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-22 08:54:47,068] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor Writing [{timestamp=Thu Jul 22 08:54:47 CEST 2021, status=404, error=Not Found, path=/ERROR/hola}]
+[2021-07-22 08:54:47,090] [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 404
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet GET "/api/v1/ERROR/hola", parameters={}
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler Resource not found
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet Completed 404 NOT_FOUND
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-22 08:54:56,181] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor Writing [{timestamp=Thu Jul 22 08:54:56 CEST 2021, status=404, error=Not Found, path=/api/v1/ERROR/hola}]
+[2021-07-22 08:54:56,185] [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 404
+[2021-07-22 08:55:05,083] [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet GET "/api/v1/saludo/ERROR/hola", parameters={}
+[2021-07-22 08:55:05,083] [http-nio-8080-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.example.logging.controller.EjemploRest#saludame(String, String)
+[2021-07-22 08:55:05,083] [http-nio-8080-exec-4] ERROR com.example.logging.controller.EjemploRest Mostrando nombre: hola

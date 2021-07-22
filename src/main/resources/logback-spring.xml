@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>[%d] [%thread] %level %logger %msg \n</Pattern>
+        </layout>
+    </appender>
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>archivos/logs/spring-logging.log</file>
+        <Encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>[%d] [%thread] %level %logger %msg%n</Pattern>
+        </Encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>archivos/logs/spring-logging%d-%i.log</fileNamePattern>
+            <maxHistory>5</maxHistory>
+            <totalSizeCap>25KB</totalSizeCap>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5KB</maxFileSize>
+
+            </timeBasedFileNamingAndTriggeringPolicy>
+
+
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+     <root level="INFO">
+            <appender-ref ref="RollingFile" />
+     </root >
+    <logger name="com.example.logging" level="trace" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+</configuration>
